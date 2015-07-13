@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		5A89915E1B54192D004539D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A89915D1B54192D004539D6 /* AppDelegate.swift */; };
 		5A8991611B54192D004539D6 /* ContactsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A89915F1B54192D004539D6 /* ContactsTest.xcdatamodeld */; };
-		5A8991631B54192D004539D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991621B54192D004539D6 /* ViewController.swift */; };
 		5A8991661B54192D004539D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8991641B54192D004539D6 /* Main.storyboard */; };
 		5A8991681B54192D004539D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8991671B54192D004539D6 /* Images.xcassets */; };
 		5A89916B1B54192D004539D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8991691B54192D004539D6 /* LaunchScreen.xib */; };
 		5A8991771B54192D004539D6 /* ContactsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991761B54192D004539D6 /* ContactsTestTests.swift */; };
+		5A8991811B544E1D004539D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991801B544E1D004539D6 /* TableViewController.swift */; };
+		5A8991831B544E60004539D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991821B544E60004539D6 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		5A89915C1B54192D004539D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A89915D1B54192D004539D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A8991601B54192D004539D6 /* ContactsTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsTest.xcdatamodel; sourceTree = "<group>"; };
-		5A8991621B54192D004539D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A8991651B54192D004539D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A8991671B54192D004539D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A89916A1B54192D004539D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5A8991701B54192D004539D6 /* ContactsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8991751B54192D004539D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8991761B54192D004539D6 /* ContactsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTestTests.swift; sourceTree = "<group>"; };
+		5A8991801B544E1D004539D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5A8991821B544E60004539D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				5A89915D1B54192D004539D6 /* AppDelegate.swift */,
-				5A8991621B54192D004539D6 /* ViewController.swift */,
 				5A8991641B54192D004539D6 /* Main.storyboard */,
+				5A8991821B544E60004539D6 /* MainViewController.swift */,
+				5A8991801B544E1D004539D6 /* TableViewController.swift */,
 				5A8991671B54192D004539D6 /* Images.xcassets */,
 				5A8991691B54192D004539D6 /* LaunchScreen.xib */,
 				5A89915F1B54192D004539D6 /* ContactsTest.xcdatamodeld */,
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8991631B54192D004539D6 /* ViewController.swift in Sources */,
 				5A8991611B54192D004539D6 /* ContactsTest.xcdatamodeld in Sources */,
 				5A89915E1B54192D004539D6 /* AppDelegate.swift in Sources */,
+				5A8991811B544E1D004539D6 /* TableViewController.swift in Sources */,
+				5A8991831B544E60004539D6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
