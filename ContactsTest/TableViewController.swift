@@ -21,9 +21,8 @@ class TableViewController: UITableViewController, UITableViewDataSource, UITable
         // Dispose of any resources that can be recreated.
     }
 
-
-        
-        var tableData:Array<String> = ["A", "This ", "THAT", "ASDFGHJK"]
+    
+        var tableData:Array<String> = ["John Ball", "Tom Wall", "Jack White", "Hugh Met"]
         var picData:Array<String>   = ["Icon-Small-50", "Icon-Small-50", "Icon-Small-50", "Icon-Small-50"]
         
         override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -57,7 +56,6 @@ class TableViewController: UITableViewController, UITableViewDataSource, UITable
             var icon = UIImage(named: picData[indexPath.row] as String)
             
             cell?.imageView?.image = icon
-            cell?.detailTextLabel?.text = "test"
             
             
             return cell!

@@ -15,6 +15,7 @@
 		5A8991771B54192D004539D6 /* ContactsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991761B54192D004539D6 /* ContactsTestTests.swift */; };
 		5A8991811B544E1D004539D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991801B544E1D004539D6 /* TableViewController.swift */; };
 		5A8991831B544E60004539D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991821B544E60004539D6 /* MainViewController.swift */; };
+		5A8991871B556C24004539D6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8991861B556C24004539D6 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		5A8991761B54192D004539D6 /* ContactsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTestTests.swift; sourceTree = "<group>"; };
 		5A8991801B544E1D004539D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5A8991821B544E60004539D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5A8991861B556C24004539D6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				5A8991641B54192D004539D6 /* Main.storyboard */,
 				5A8991821B544E60004539D6 /* MainViewController.swift */,
 				5A8991801B544E1D004539D6 /* TableViewController.swift */,
+				5A8991861B556C24004539D6 /* TableViewCell.swift */,
 				5A8991671B54192D004539D6 /* Images.xcassets */,
 				5A8991691B54192D004539D6 /* LaunchScreen.xib */,
 				5A89915F1B54192D004539D6 /* ContactsTest.xcdatamodeld */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8991871B556C24004539D6 /* TableViewCell.swift in Sources */,
 				5A8991611B54192D004539D6 /* ContactsTest.xcdatamodeld in Sources */,
 				5A89915E1B54192D004539D6 /* AppDelegate.swift in Sources */,
 				5A8991811B544E1D004539D6 /* TableViewController.swift in Sources */,
